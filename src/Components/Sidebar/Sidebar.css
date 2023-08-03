@@ -1,0 +1,42 @@
+.sidebar-section{
+    display: flex;
+    background-color: rgb(27, 29, 29);
+}
+
+.sidebar{
+    height: 100vh;
+    background-color: rgb(27, 29, 29);
+    width: 80px;
+    position:fixed;
+    transition-duration: 1s;
+    opacity: 0.6;
+}
+
+.sidebar-expand{
+    height: 100vh;
+    background-color: rgb(27, 29, 29);
+    width: 200px;
+}
+
+.icon-for-sidebar-expand-and-collapse {
+    display: flex;
+    align-items:right;
+    justify-content: right;
+    cursor:pointer;
+}
+
+.icon-for-sidebar-expand-and-collapse p svg{
+    background-color: grey ;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.container-fluid{
+    padding-left: 0px!important;    
+    padding-right: 0px!important; 
+    overflow: hidden;   
+
+}
